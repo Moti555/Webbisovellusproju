@@ -1,5 +1,5 @@
 body { 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: 'Robuto', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -36,7 +36,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-.github-logo{
+.audirs{
     width: 25px;
     height: 25px;
     margin: 0 auto;
@@ -52,7 +52,7 @@ img{
   }
   
   #footer {
-    background-color: #ccc;
+    background-color: #ffffff75;
     padding: 20px;
   }
   @media (max-width: 600px) {
