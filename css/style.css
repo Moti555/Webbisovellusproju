@@ -1,0 +1,92 @@
+body { 
+    background-color: white;
+    font-family: 'Robuto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:  #1a17a3;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: 'Robuto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2{
+    font-family: 'Robuto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+p{
+    font-family: 'Robuto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.github-logo{
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    display: block;
+}
+.highlight {
+    color: rgb(32, 48, 117);
+  }
+  .otsikko {
+    font-family: "arial black", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+  }
+  
+  #footer {
+    background-color: #ccc;
+    padding: 20px;
+  }
+  @media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size: 14px;
+    }
+  }
+
+#auto {
+    width: 100%; /* Make the table full-width */
+    border-collapse: collapse; /* Remove gaps between table cells */
+    margin: 20px 0; /* Add some space above and below the table */
+}
+
+#auto caption {
+    font-size: 24px; /* Bigger font for the caption */
+    margin-bottom: 10px; /* Space between caption and table */
+}
+
+#auto th, #auto td {
+    border: 1px solid hsl(0, 0%, 0%); /* Add borders to cells */
+    padding: 8px; /* Add padding to cells */
+    text-align: left; /* Align text to the left */
+}
+
+#auto th {
+    background-color: #070606; /* Light gray background for header */
+}
+
+#auto tr:nth-child(even) {
+    background-color: #030303; /* Stripe for even rows */
+}
+
+#auto tr:hover {
+    background-color: #030303; /* Highlight row on hover */
+}
